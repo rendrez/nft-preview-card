@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github](https://github.com/rendrez/nft-preview-card)
+- Live Site URL: [Github Pages](https://rendrez.github.io/nft-preview-card/)
 
 ## My process
 
@@ -86,6 +86,5 @@ I am learning about overlaying image when hovering like this
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Github - [Muhammad Randy](https://github.com/rendrez)
+- Frontend Mentor - [@rendrez](https://www.frontendmentor.io/profile/rendrez)
