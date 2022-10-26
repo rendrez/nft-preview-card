@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+
+:root {
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --cyan-bg: hsla(178, 100%, 50%, 0.5);
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --line: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+}
+
+body {
+  margin: 0;
+  background-color: var(--main-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Outfit", sans-serif;
+}
+
+.card {
+  background-color: var(--card-bg);
+  width: 270px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.container img,
+.container .overlay {
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 3px;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: var(--cyan-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+h1 {
+  color: var(--white);
+  margin-bottom: 15px;
+}
+
+p {
+  margin-top: 0;
+}
+
+.priceAndTime {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.price {
+  color: var(--cyan);
+}
+
+p,
+.time {
+  color: var(--soft-blue);
+}
+
+.price,
+.time {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+hr {
+  width: 100%;
+  border: 0.5px solid var(--line);
+  margin: 15px auto;
+}
+
+.profil {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profil img {
+  border: 2px solid var(--white);
+  border-radius: 100%;
+}
+
+.profil div {
+  color: var(--white);
+}
+
+.profil div span {
+  color: var(--soft-blue);
+}
+
+h1,
+.profil div,
+.container {
+  cursor: pointer;
+}
+
+h1:hover,
+.profil div:hover {
+  color: var(--cyan);
+}
